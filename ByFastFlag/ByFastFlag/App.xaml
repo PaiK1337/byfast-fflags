@@ -1,0 +1,23 @@
+<Application
+	x:Class="ByFastFlag.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:byfastflag="clr-namespace:ByFastFlag">
+	<Application.Resources>
+		<ResourceDictionary>
+			<Style
+				TargetType="{x:Type Window}"
+				x:Key="{x:Type Window}">
+				<Setter
+					Property="TextOptions.TextFormattingMode"
+					Value="Display" />
+				<Setter
+					Property="FrameworkElement.UseLayoutRounding"
+					Value="True" />
+				<Setter
+					Property="UIElement.SnapsToDevicePixels"
+					Value="True" />
+				<Setter
+					Property="RenderOptions.BitmapScalingMode"
+					Value="NearestNeighbor" />
+			</Style>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
